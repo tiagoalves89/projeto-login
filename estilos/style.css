@@ -34,9 +34,18 @@ section#login {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.548);
 }
 
-section#login > div#imagens {
-    background: #5f2c82 url(../imagens/fundo.jpg) ;
-    height: 1000px;
+section#login > div#imagem {
+    background: #5f2c82 url(../imagens/pexels-pixabay-35543.jpg) ;
+    height: 200px;
+    background-size: cover;
+    display: block;
+}
+
+section#login > div#formulario {
+    padding: 10px;
+    display: block;
 }
